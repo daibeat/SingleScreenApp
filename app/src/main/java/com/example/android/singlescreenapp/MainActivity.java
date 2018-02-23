@@ -19,6 +19,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /**
+     *
+     * This method links the Instagram icon to the site.
+     *
+     */
     public void onClick(View view) {
 
 
