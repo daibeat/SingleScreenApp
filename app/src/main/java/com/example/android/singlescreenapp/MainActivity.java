@@ -22,19 +22,19 @@ public class MainActivity extends AppCompatActivity {
     public void onClick(View view) {
 
 
-        Uri uri = Uri.parse("https://www.instagram.com/zona230/");
+        Uri uri = Uri.parse(getString(R.string.Insagram_link));
 
 
         Intent likeIng = new Intent(Intent.ACTION_VIEW, uri);
 
-        likeIng.setPackage("com.instagram.android");
+        likeIng.setPackage(getString(R.string.Instagram_setPackage));
 
         try {
             startActivity(likeIng);
         } catch (ActivityNotFoundException e) {
 
             startActivity(new Intent(Intent.ACTION_VIEW,
-                    Uri.parse("https://www.instagram.com/zona230/")));
+                    Uri.parse(getString(R.string.Instagram_link))));
         }
     }
 }

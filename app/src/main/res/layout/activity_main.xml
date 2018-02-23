@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="@color/background"
     tools:context="com.example.android.singlescreenapp.MainActivity">
 
     <LinearLayout
@@ -19,33 +19,33 @@
             android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="@dimen/title"
             android:fontFamily="@font/kozgoproextralight"
-            android:text="Creative Space"
-            android:textSize="24sp" />
+            android:text="@string/creative_space"
+            android:textSize="@dimen/textsize_title" />
 
         <ImageView
             android:id="@+id/logo"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_marginTop="20dp"
+            android:layout_height="@dimen/logo_width"
+            android:layout_marginTop="@dimen/logo_margintop"
             android:src="@drawable/logozona_230" />
 
         <ImageView
             android:id="@+id/estudio2"
             android:layout_width="match_parent"
-            android:layout_height="238dp"
-            android:layout_marginTop="30dp"
+            android:layout_height="@dimen/estudio2_height"
+            android:layout_marginTop="@dimen/estudio2_margintop"
             android:src="@drawable/estudio_2" />
 
         <TextView
             android:id="@+id/about"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/about_margintop"
             android:fontFamily="@font/kozgoproextralight"
-            android:text="About"
-            android:textSize="16sp"
+            android:text="@string/about"
+            android:textSize="@dimen/about_textsize"
             android:textStyle="bold" />
 
         <TextView
@@ -53,19 +53,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/about"
-            android:layout_marginLeft="32dp"
-            android:layout_marginRight="23dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginLeft="@dimen/description_marginleft"
+            android:layout_marginRight="@dimen/description_marginright"
+            android:layout_marginTop="@dimen/description_marginTop"
             android:fontFamily="@font/kozgoproextralight"
-            android:lineSpacingExtra="5dp"
-            android:text="Zona 230 is a space created for artists to create and sell their projects."
-            android:textSize="14sp" />
+            android:lineSpacingExtra="@dimen/description_lineSpacing"
+            android:text="@string/description_text"
+            android:textSize="@dimen/description_textSize" />
 
         <ImageView
             android:id="@+id/icon1"
             android:layout_width="wrap_content"
-            android:layout_height="25dp"
-            android:layout_marginTop="15dp"
+            android:layout_height="@dimen/icon_height"
+            android:layout_marginTop="@dimen/icon_marginTop"
             android:src="@drawable/ic_place_black_24dp" />
 
 
@@ -73,36 +73,36 @@
             android:id="@+id/address2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/address_marginTop"
             android:fontFamily="@font/kozgoproextralight"
-            android:text="Cartagena St. 230, 2n 2a. 08013 Barcelona"
-            android:textSize="14sp" />
+            android:text="@string/address2_text"
+            android:textSize="@dimen/address2_textSize" />
 
         <TextView
             android:id="@+id/web"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/web_marginTop"
             android:fontFamily="@font/kozgoproextralight"
-            android:text="Web"
-            android:textSize="16sp"
+            android:text="@string/web"
+            android:textSize="@dimen/web_textSize"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/website"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/website_marginTop"
             android:fontFamily="@font/kozgoproextralight"
-            android:text="zona230.blogspot.com.es"
-            android:textSize="14sp" />
+            android:text="@string/website_text"
+            android:textSize="@dimen/website_textSize" />
 
         <ImageButton
             android:id="@+id/instagram"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="10dp"
-            android:background="#FFFFFF"
+            android:layout_width="@dimen/instagram_width"
+            android:layout_height="@dimen/instagram_height"
+            android:layout_marginTop="@dimen/instagram_marginTop"
+            android:background="@color/instagram_background"
             android:onClick="onClick"
             android:src="@drawable/instagramlogo3" />
 
