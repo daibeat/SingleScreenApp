@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.example.android.singlescreenapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/kozgoproextralight"
+            android:text="Creative Space"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/logozona_230" />
+
+        <ImageView
+            android:id="@+id/estudio2"
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/estudio_2" />
+
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/kozgoproextralight"
+            android:text="About"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/about"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="23dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/kozgoproextralight"
+            android:lineSpacingExtra="5dp"
+            android:text="Zona 230 is a space created for artists to create and sell their projects."
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/icon1"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/ic_place_black_24dp" />
+
+
+        <TextView
+            android:id="@+id/address2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/kozgoproextralight"
+            android:text="Cartagena St. 230, 2n 2a. 08013 Barcelona"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/kozgoproextralight"
+            android:text="Web"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/kozgoproextralight"
+            android:text="zona230.blogspot.com.es"
+            android:textSize="14sp" />
+
+        <ImageButton
+            android:id="@+id/instagram"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:onClick="onClick"
+            android:src="@drawable/instagramlogo3" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+
+
+
